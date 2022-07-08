@@ -38,7 +38,7 @@ html{
     height: 7vh;
 }
 ul{
-    margin-top: -250%;
+    margin-top: -240%;
     list-style: none;
     display: flex;
     flex-direction: column;
