@@ -15,7 +15,7 @@ html{
 .firstvh{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(fondo-mobile.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(fondo-mobile.jpg) no-repeat center center ;
     background-size: cover;
 }
 .checkbox{
@@ -119,7 +119,7 @@ ul li a:hover{
 .secondvh{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(tatuando-de-frente.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(tatuando-de-frente.jpg) no-repeat center center ;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -346,6 +346,10 @@ video{
     .checkbox:checked ~ ul{
         margin-left: 0;
     }
+    .firstvh , .secondvh{
+        background: fixed;
+    }
+    
     .thirdvh{
         display: flex;
         flex-direction: column;
