@@ -346,13 +346,6 @@ video{
     .checkbox:checked ~ ul{
         margin-left: 0;
     }
-    .firstvh{
-        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(fondo-mobile.jpg) no-repeat center center fixed;
-    }
-    .secondvh{
-        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(tatuando-de-frente.jpg) no-repeat center center fixed;
-        background-size: cover;
-    }
     .thirdvh{
         display: flex;
         flex-direction: column;
