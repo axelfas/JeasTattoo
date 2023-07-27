@@ -12,11 +12,11 @@
     <header>
         <nav class="navbar">
             <ul class="navbar-menu">
-                <li class="navbar-item"><a href="#home">About</a></li>
-                <li class="navbar-item"><a href="#services">Services</a></li>
+                <li class="navbar-item"><a href="#home">Home</a></li>
+                <li class="navbar-item"><a href="#artist">Artist</a></li>
                 <img src="JEAS FINAL.png" class="jeas" alt="">
                 <li class="navbar-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="navbar-item"><a href="#contact">Contact</a></li>
+                <li class="navbar-item"><a href="#contact">Book Now</a></li>
               </ul>
             <button class="navbar-toggle" aria-label="Toggle Menu">
               <i class="fas fa-bars"></i>
@@ -24,11 +24,11 @@
           </nav>      
     </header>
 
-      <section class="firstvh vh">
+      <section class="firstvh vh" id="home">
         <div class="center">
           <h1>Let the art <br>speak on you</h1>
           <button>
-            BOOK NOW
+            <a href="#contact">Book Now</a>
           </button>
         </div>
       </section>
@@ -38,7 +38,7 @@
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-behance"></i>
       </section>
-      <section class="secondvh vh">
+      <section class="secondvh vh" id="artist">
         <article>
           <img src="Perfil.jpg" alt="foto perfil">
           <p>
@@ -49,9 +49,9 @@
           </p>
         </article>
     </section>
-    <section class="thirdvh vh">
+    <section class="thirdvh vh" id="Portfolio">
       
-    <div class="grid-container">
+    <!-- <div class="grid-container">
       <img class="grid-item grid-item-responsive" src="Tattoo/tatuaje.jpg" width="230" height="128" />
       <img class="grid-item grid-item-responsive" src="Tattoo/tatuaje1.jpg" width="230" height="300" />
       <img class="grid-item grid-item-responsive" src="Tattoo/tatuaje10.jpg" width="230" height="410" />
@@ -81,12 +81,12 @@
       <img class="grid-item" src="Tattoo/tatuaje26.jpg" width="230" height="510" />
       <img class="grid-item" src="Tattoo/tatuaje27.jpg" width="230" height="320" />
       <img class="grid-item" src="Tattoo/tatuaje15.jpeg" width="230" height="260" />
-    </div>
+    </div> -->
     </section>
 
     <section class="fourvh vh" id="contact">
       <div class="text-container">
-        <h2>Let's Connect</h2>
+        <h2>BOOK NOW</h2>
       </div>
         <div class="login-box">
           <form action="https://formsubmit.co/axelfas08@gmail.com" id="miFormulario" method="POST">
@@ -119,8 +119,6 @@
         </div>
     </section>
     <script src="script.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
     <script>
       var elem = document.querySelector(".grid-container");
       var msnry = new Masonry(elem, {
