@@ -384,7 +384,7 @@ transition: 0.2s ease-in-out all;
   
   .navbar-item {
   background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -407,6 +407,8 @@ transition: 0.2s ease-in-out all;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  font-size: 25px;
   }
   .socialmedia{
     top: none;
