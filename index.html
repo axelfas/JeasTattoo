@@ -49,6 +49,8 @@
           </p>
         </article>
     </section>
+    <section class="thirdvh vh">
+      
     <div class="grid-container">
       <img class="grid-item grid-item-responsive" src="Tattoo/tatuaje.jpg" width="230" height="128" />
       <img class="grid-item grid-item-responsive" src="Tattoo/tatuaje1.jpg" width="230" height="300" />
@@ -80,6 +82,7 @@
       <img class="grid-item" src="Tattoo/tatuaje27.jpg" width="230" height="320" />
       <img class="grid-item" src="Tattoo/tatuaje15.jpeg" width="230" height="260" />
     </div>
+    </section>
 
     <section class="fourvh vh" id="contact">
       <div class="text-container">
@@ -97,7 +100,15 @@
             </div>
             <div class="user-box">
               <input type="text" name="Subject" required>
-              <label>Subject</label>
+              <label>Tell us more about yout tattoo idea?</label>
+            </div>
+            <div class="user-box">
+              <input type="date" name="fecha" id="fecha">
+              <label for="fecha">When are you planning to get it done?</label>
+            </div>
+            <div class="user-box">
+              <input type="file" name="photo" accept="image/*" name="Subject">
+              <label for="photo">Reference Image</label>
             </div>
             <div class="send__container">
               <button href="#">
@@ -119,6 +130,16 @@
         gutter: 20,
         isFitWidth: true
       });
+function showDatePicker() {
+document.getElementById("fecha").type = "date";
+}
+window.onload = function() {
+  const inputFecha = document.getElementById("fecha");
+
+  const today = new Date().toISOString().split('T')[0];
+  inputFecha.setAttribute("min", today);
+};
+
     </script>
 </body>
 </html>
