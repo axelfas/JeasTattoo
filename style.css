@@ -4,9 +4,6 @@
   padding: 0;
   font-family: 'sans-serif';
 }
-html{
-  scroll-behavior: smooth;
-}
 @font-face {
   font-family: 'sans-serif';
   src: url('OpenSans.ttf') format('truetype');
@@ -14,6 +11,10 @@ html{
 @font-face {
   font-family: 'xtradex';
   src: url('Xtradex.otf') format('truetype');
+}
+html{
+  scroll-behavior: smooth;
+  font-family: 'sans-serif';
 }
 body {
   margin: 0;
@@ -27,7 +28,6 @@ body {
 }
 a{
   text-decoration: none;
-  font-size: 2rem;
 }
 .hamburger{
   display: none !important;
@@ -60,7 +60,7 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 height: 100%;
-max-width: 450px;
+max-width: 550px;
 }
 .jeas{
   width: 80px;
