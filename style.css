@@ -28,6 +28,7 @@ body {
 }
 a{
   text-decoration: none;
+  color: white;
 }
 .hamburger{
   display: none !important;
@@ -163,6 +164,12 @@ transition: 0.2s ease-in-out all;
   margin-top: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+.firstvh button:hover{
+  box-shadow: 0 0 5px #A89C75,
+  0 0 25px #A89C75,
+  0 0 50px #A89C75,
+  0 0 100px #A89C75;
+}
 .firstvh button a{
   font-family: 'xtradex';
   display: inline-block;
@@ -175,10 +182,6 @@ transition: 0.2s ease-in-out all;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   transition: ease-in-out all 0.4s;
   cursor: pointer;
-}
-.firstvh button a:hover{
-  background-color: white;
-  color: #A89C75;
 }
 .secondvh{
   display:flex;
